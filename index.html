@@ -6,122 +6,118 @@
 <title>عبدالرحمن علي الفيفي</title>
 <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
 <style>
-:root{--blue:#2563eb;--dark:#0f172a;--gray:#64748b;--bg:#f1f5f9;--card:#ffffff}
-*{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'Tajawal',sans-serif;background:var(--bg);color:var(--dark);line-height:1.8}
-.hero{background:var(--dark);color:#fff;padding:70px 20px 80px;text-align:center}
-.hero h1{font-size:38px;font-weight:800;white-space:nowrap}
-.hero .subtitle{margin-top:12px;font-size:16px;color:#cbd5e1}
-.hero .gpa-box{margin-top:18px;display:inline-block;background:#1e293b;border:1px solid #334155;padding:8px 20px;border-radius:30px;font-weight:700;color:#e0f2fe;font-size:15px}
-.hero .contact{margin-top:14px;font-size:13px;color:#94a3b8;word-break:break-all}
-.container{max-width:850px;margin:-40px auto 0;padding:0 16px 40px}
-.card{background:var(--card);border-radius:16px;padding:24px 22px;margin-bottom:16px;box-shadow:0 4px 20px rgba(0,0,0,.05);border:1px solid #e2e8f0}
-.card h3{font-size:17px;font-weight:800;color:var(--blue);margin-bottom:14px;display:flex;align-items:center;gap:8px}
-.card h3::before{content:'';width:4px;height:18px;background:var(--blue);border-radius:2px;display:inline-block}
-.card p, .card li{font-size:14.5px;color:#334155;line-height:1.9}
-ul{list-style:none;padding:0}
-ul li{position:relative;padding-right:16px;margin-bottom:7px}
-ul li::before{content:'•';position:absolute;right:0;color:var(--blue);font-weight:800}
-.badge{background:#eff6ff;color:var(--blue);border:1px solid #bfdbfe;padding:4px 12px;border-radius:20px;font-weight:700;font-size:13px;margin-right:8px}
-.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
-.tag{background:#f8fafc;border:1px solid #e2e8f0;color:#334155;padding:6px 12px;border-radius:20px;font-size:13px;font-weight:500}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.footer{text-align:center;color:var(--gray);font-size:12px;padding:28px 0 20px}
-.actions{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:6px}
-.btn{border:none;padding:10px 22px;border-radius:10px;font-weight:700;font-size:14px;text-decoration:none;cursor:pointer;display:inline-block}
-.btn-blue{background:var(--blue);color:#fff}
-.btn-dark{background:var(--dark);color:#fff}
-.btn-green{background:#16a34a;color:#fff}
-@media(max-width:600px){
-.hero h1{font-size:30px;white-space:normal}
-.container{padding:0 12px 30px}
-.card{padding:20px 16px}
-}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Tajawal',sans-serif;background:#f8fafc;color:#1e293b}
+.top{background:#0f172a;color:#fff;text-align:center;padding:65px 20px 75px}
+.top h1{font-size:36px;font-weight:800;letter-spacing:-0.5px}
+.top p{margin-top:8px;color:#94a3b8;font-size:15px}
+.top .badge{margin-top:16px;display:inline-block;background:#1e293b;border:1px solid #334155;color:#e2e8f0;padding:7px 18px;border-radius:100px;font-size:14px;font-weight:700}
+.top .info{margin-top:12px;color:#64748b;font-size:12.5px}
+.wrap{max-width:780px;margin:-35px auto 0;padding:0 14px 40px}
+.box{background:#fff;border:1px solid #e2e8f0;border-radius:14px;padding:22px 20px;margin-bottom:14px}
+.box h2{font-size:15px;font-weight:800;color:#0f172a;margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid #f1f5f9}
+.box p{font-size:14px;line-height:1.9;color:#334155}
+.list{list-style:none}
+.list li{font-size:14px;color:#334155;padding:5px 0 5px 0;display:flex;gap:8px;line-height:1.7}
+.list li span{color:#2563eb;margin-top:2px}
+.edu-head{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:10px}
+.edu-title{font-weight:800;font-size:14px}
+.edu-rate{background:#eff6ff;color:#1d4ed8;border:1px solid #dbeafe;padding:3px 10px;border-radius:20px;font-size:12px;font-weight:700}
+.tags{display:flex;flex-wrap:wrap;gap:7px}
+.tags span{background:#f8fafc;border:1px solid #e2e8f0;padding:5px 11px;border-radius:20px;font-size:12.5px;color:#475569}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:600px){.grid2{grid-template-columns:1fr}.top h1{font-size:28px}}
+.foot{text-align:center;padding:20px 0;color:#94a3b8;font-size:11px}
+.btns{display:flex;gap:8px;justify-content:center;margin-top:10px}
+.btns a{text-decoration:none;padding:8px 18px;border-radius:8px;font-size:13px;font-weight:700}
+.b1{background:#2563eb;color:#fff}.b2{background:#0f172a;color:#fff}.b3{background:#16a34a;color:#fff}
 </style>
 </head>
 <body>
-<div class="hero">
+<div class="top">
 <h1>عبدالرحمن علي الفيفي</h1>
-<div class="subtitle">مطور برمجيات - دبلوم برمجيات الحاسب</div>
-<div class="gpa-box">المعدل 4.23 من 5 - بتقدير جيد جدا</div>
-<div class="contact">abdulrahman.ali.alfaifi@gmail.com | 0558129513 | المملكة العربية السعودية</div>
+<p>مطور برمجيات - دبلوم برمجيات الحاسب</p>
+<div class="badge">المعدل 4.23 من 5 - بتقدير جيد جدا</div>
+<div class="info">abdulrahman.ali.alfaifi@gmail.com | 0558129513 | المملكة العربية السعودية</div>
 </div>
 
-<div class="container">
-<div class="card">
-<h3>الهدف الوظيفي</h3>
-<p>اسعى للانضمام الى مؤسسة برمجية توفر بيئة عمل منظمة ومحفزة، حيث اتمكن من المساهمة في تحقيق اهداف المؤسسة من خلال تنظيم العمليات والعمل ضمن فريق متعاون وتطوير مهاراتي المهنية باستمرار.</p>
+<div class="wrap">
+<div class="box">
+<h2>الهدف الوظيفي</h2>
+<p>اسعى للانضمام الى مؤسسة برمجية توفر بيئة عمل منظمة ومحفزة، للمساهمة في تحسين العمليات وتقديم حلول برمجية فعالة ضمن فريق متعاون.</p>
 </div>
 
-<div class="card">
-<h3>الخبرات العملية - الكلية التقنية بجازان</h3>
-<ul>
-<li>تحليل المتطلبات التقنية وتصميم حلول برمجية فعالة</li>
-<li>فحص واختبار البرمجيات ومعالجة الاخطاء Debugging</li>
-<li>تحديث الملفات البرمجية وضبط بيئات التطوير باستخدام Git</li>
-<li>تقديم الدعم الفني للمستخدمين وضمان استمرارية العمل</li>
+<div class="box">
+<h2>الخبرات العملية - الكلية التقنية بجازان</h2>
+<ul class="list">
+<li><span>•</span> تحليل المتطلبات التقنية وتصميم حلول برمجية فعالة</li>
+<li><span>•</span> فحص واختبار البرمجيات ومعالجة الاخطاء</li>
+<li><span>•</span> تحديث الملفات البرمجية وضبط بيئات التطوير باستخدام Git</li>
+<li><span>•</span> تقديم الدعم الفني للمستخدمين</li>
 </ul>
 </div>
 
-<div class="card">
-<h3>التعليم <span class="badge">المعدل 4.23 / 5 - جيد جدا</span></h3>
-<p style="font-weight:700;margin-bottom:8px">دبلوم برمجيات الحاسب - الكلية التقنية بجازان - 2022</p>
-<ul>
-<li>دراسة تحليل وتصميم الانظمة وتطوير البرمجيات</li>
-<li>تطوير تطبيقات الويب والهواتف الذكية</li>
-<li>انشاء وادارة قواعد البيانات وكتابة استعلامات SQL</li>
-<li>استخدام Git و GitHub</li>
-<li>تطبيق اساليب فحص البرمجيات وتصحيح الاخطاء</li>
+<div class="box">
+<h2>التعليم</h2>
+<div class="edu-head">
+<div class="edu-title">دبلوم برمجيات الحاسب - الكلية التقنية بجازان - 2022</div>
+<div class="edu-rate">المعدل 4.23 / 5 - جيد جدا</div>
+</div>
+<ul class="list">
+<li><span>•</span> تحليل وتصميم الانظمة وتطوير البرمجيات</li>
+<li><span>•</span> بناء تطبيقات الويب والهواتف الذكية</li>
+<li><span>•</span> ادارة قواعد البيانات SQL</li>
+<li><span>•</span> استخدام Git و GitHub وفحص البرمجيات</li>
 </ul>
 </div>
 
-<div class="card">
-<h3>الدورات والشهادات</h3>
-<ul>
-<li>دورة مهارات الحاسب في الاعمال المكتبية - مركز كونر 60 ساعة</li>
-<li>دورة الثقافة العمالية - منصة دروب</li>
-<li>دورة مهن المستقبل والتحول الرقمي - هدف 15 ساعة</li>
-<li>دورة Word و PowerPoint و Excel</li>
-<li>شهادة تجميع وصيانة الحاسب - Cisco</li>
+<div class="box">
+<h2>الدورات والشهادات</h2>
+<ul class="list">
+<li><span>•</span> دورة الحاسب في الاعمال المكتبية - مركز كونر 60 ساعة</li>
+<li><span>•</span> الثقافة العمالية - منصة دروب</li>
+<li><span>•</span> مهن المستقبل والتحول الرقمي - هدف 15 ساعة</li>
+<li><span>•</span> Word و PowerPoint و Excel</li>
+<li><span>•</span> شهادة تجميع وصيانة الحاسب - Cisco</li>
 </ul>
 </div>
 
-<div class="grid">
-<div class="card">
-<h3>المهارات التقنية</h3>
+<div class="grid2">
+<div class="box">
+<h2>المهارات التقنية</h2>
 <div class="tags">
-<span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">SQL</span><span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">Debugging</span><span class="tag">Office</span>
+<span>HTML</span><span>CSS</span><span>JavaScript</span><span>SQL</span><span>Git</span><span>GitHub</span><span>Debugging</span><span>Office</span>
 </div>
 </div>
-<div class="card">
-<h3>المهارات الشخصية</h3>
-<ul>
-<li>ادارة الوقت وتنظيم المهام</li>
-<li>التفكير النقدي وحل المشكلات</li>
-<li>التواصل الفعال والعمل الجماعي</li>
-<li>المرونة والتعلم المستمر</li>
+<div class="box">
+<h2>المهارات الشخصية</h2>
+<ul class="list">
+<li><span>•</span> ادارة الوقت وتنظيم المهام</li>
+<li><span>•</span> التفكير النقدي وحل المشكلات</li>
+<li><span>•</span> التواصل الفعال والعمل الجماعي</li>
+<li><span>•</span> المرونة والتعلم المستمر</li>
 </ul>
 </div>
 </div>
 
-<div class="card">
-<h3>اللغات</h3>
-<ul>
-<li>العربية</li>
-<li>الانجليزية</li>
+<div class="box">
+<h2>اللغات</h2>
+<ul class="list">
+<li><span>•</span> العربية</li>
+<li><span>•</span> الانجليزية</li>
 </ul>
 </div>
 
-<div class="card" style="text-align:center">
-<h3 style="justify-content:center">تواصل معي</h3>
-<div class="actions">
-<a class="btn btn-blue" href="mailto:abdulrahman.ali.alfaifi@gmail.com">ايميل</a>
-<a class="btn btn-dark" href="https://github.com/abdulrahman-alfaifi681">GitHub</a>
-<a class="btn btn-green" href="https://wa.me/966558129513">واتساب</a>
+<div class="box" style="text-align:center">
+<h2 style="text-align:center;border:none">تواصل معي</h2>
+<div class="btns">
+<a class="b1" href="mailto:abdulrahman.ali.alfaifi@gmail.com">ايميل</a>
+<a class="b2" href="https://github.com/abdulrahman-alfaifi681">GitHub</a>
+<a class="b3" href="https://wa.me/966558129513">واتساب</a>
 </div>
 </div>
 
-<div class="footer">© 2026 عبدالرحمن علي الفيفي - المعدل 4.23 جيد جدا - المملكة العربية السعودية</div>
+<div class="foot">© 2026 عبدالرحمن علي الفيفي - 4.23 جيد جدا - المملكة العربية السعودية</div>
 </div>
 </body>
 </html>
