@@ -4,21 +4,48 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="google-site-verification" content="AOIGiyCbNlwjUAnZNK-SSasCZy706-ynk9mElwxJLZg" />
-<title>عبدالرحمن الفيفي</title>
+<title>عبدالرحمن علي الفيفي - محلل بيانات</title>
 <style>
-body{font-family:'Segoe UI',sans-serif;background:#f4f6f9;margin:0}
-.container{max-width:800px;margin:30px auto;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.08)}
-.header{background:linear-gradient(135deg,#0f172a,#1e40af);color:#fff;padding:45px;text-align:center}
-.content{padding:30px;text-align:center}
+body{font-family:'Segoe UI',Tahoma,sans-serif;background:#f4f6f9;margin:0;color:#333}
+.container{max-width:900px;margin:30px auto;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.08)}
+.header{background:linear-gradient(135deg,#0f172a,#1e40af);color:#fff;padding:60px 30px;text-align:center}
+.header h1{margin:0;font-size:32px}
+.header p{opacity:.9;margin-top:10px}
+.section{padding:30px;border-bottom:1px solid #eee}
+.section h2{color:#1e40af}
 .btn{background:#1e40af;color:#fff;padding:14px 32px;border:none;border-radius:30px;font-size:17px;cursor:pointer}
-#contactInfo{display:none;margin-top:20px;background:#eef2ff;padding:20px;border-radius:10px}
+.btn:hover{background:#0f172a}
+#contactInfo{display:none;margin-top:20px;background:#eef2ff;padding:20px;border-radius:10px;font-size:18px}
+.skills span{display:inline-block;background:#e0e7ff;color:#1e40af;padding:8px 14px;border-radius:20px;margin:5px}
+.footer{text-align:center;padding:20px;background:#f8fafc;color:#777}
 </style>
 </head>
 <body>
 <div class="container">
-<div class="header"><h1>عبدالرحمن علي الفيفي</h1><p>جدة - السعودية</p></div>
-<div class="content">
+<div class="header">
+<h1>عبدالرحمن علي الفيفي</h1>
+<p>جدة - السعودية | محلل بيانات</p>
+</div>
+
+<div class="section">
+<h2>من أنا</h2>
+<p>محلل بيانات من جدة، أهتم بتحليل البيانات وتحويلها إلى قرارات، وأسعى لفرص عمل في مجال تحليل البيانات والتقنية.</p>
+</div>
+
+<div class="section">
+<h2>المهارات</h2>
+<div class="skills">
+<span>تحليل البيانات</span>
+<span>Python</span>
+<span>SQL</span>
+<span>Excel</span>
+<span>Power BI</span>
+</div>
+</div>
+
+<div class="section" style="text-align:center">
 <h2>تواصل معي</h2>
+<p>للتواصل المهني اضغط الزر</p>
 <button class="btn" onclick="showContact()">📩 إظهار الإيميل</button>
 <div id="contactInfo"></div>
 <script>
@@ -26,11 +53,15 @@ function showContact(){
 var u="abdulrahman.ali.alfaifi";
 var d="gmail.com";
 var e=u+"@"+d;
-document.getElementById("contactInfo").innerHTML="<b>"+e+"</b><br><br><a href='mailto:"+e+"'>أرسل رسالة</a>";
+document.getElementById("contactInfo").innerHTML="<b>"+e+"</b><br><br><a href='mailto:"+e+"' style='color:#1e40af;font-weight:bold'>أرسل رسالة الآن</a>";
 document.getElementById("contactInfo").style.display="block";
 }
 </script>
+<br><br>
+<a href="https://github.com/abdulrahman-alfaifi681" target="_blank" style="color:#1e40af">GitHub</a>
 </div>
+
+<div class="footer">© 2026 عبدالرحمن الفيفي</div>
 </div>
 </body>
 </html>
