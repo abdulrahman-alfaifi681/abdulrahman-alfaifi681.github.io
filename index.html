@@ -3,76 +3,95 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>عبدالرحمن علي الفيفي - مطور برمجيات</title>
-<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<!-- يمنع الآيفون من تغيير لون الأرقام -->
+<meta name="format-detection" content="telephone=no">
+<title>عبدالرحمن الفيفي - مطور برمجيات</title>
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:'Tajawal',sans-serif}
-body{background:#f1f5f9;color:#1e293b}
-.top{background:#0f172a;color:white;text-align:center;padding:60px 20px 40px}
-.top h1{font-size:32px;font-weight:800;margin-bottom:12px}
-.top p{color:#94a3b8;margin-bottom:22px;font-size:16px}
-.contact{background:#1e293b;border:1px solid #334155;display:inline-block;padding:12px 20px;border-radius:14px;font-size:14px;color:#fff}
-.wrap{max-width:800px;margin:-20px auto 0;padding:20px}
-.box{background:white;border-radius:18px;padding:22px;margin-bottom:16px;box-shadow:0 1px 3px rgba(0,0,0,0.06);border:1px solid #e2e8f0}
-.box h2{font-size:18px;margin-bottom:14px;border-bottom:1px solid #f1f5f9;padding-bottom:10px}
-.box p,.box li{font-size:14px;line-height:1.9;color:#475569}
-.box ul{list-style:none}
-.box li{margin-bottom:10px;padding-right:12px;position:relative}
-.box li:before{content:"•";position:absolute;right:0;color:#3b82f6}
-.foot{text-align:center;padding:20px;color:#94a3b8;font-size:12px}
+* { margin:0; padding:0; box-sizing:border-box; font-family: 'Segoe UI', Tahoma, sans-serif; }
+body { background:#f5f7fa; color:#333; line-height:1.7; }
+
+a[x-apple-data-detectors], a[x-apple-data-detectors] * {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.header {
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+.header h1 { font-size: 28px; margin-bottom:10px; }
+.header .job-title { font-size: 16px; color:#93c5fd; margin-bottom:20px; }
+
+/* إصلاح قص الإيميل والجوال */
+.contact-info {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:12px;
+  font-size:14px;
+}
+.contact-info span, .contact-info a {
+  background: rgba(255,255,255,0.1);
+  padding: 6px 14px;
+  border-radius: 20px;
+  word-break: break-all;
+  color: #ffffff !important; /* يجبر اللون أبيض */
+  text-decoration: none !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+.section { background:white; margin:20px; padding:25px; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.05); }
+.section h2 { color:#1e3a8a; margin-bottom:15px; border-right:4px solid #1e3a8a; padding-right:10px; }
+
+/* أزرار التواصل العائمة */
+.float-contact {
+  position:fixed; bottom:20px; left:20px; z-index:999;
+  display:flex; flex-direction:column; gap:12px;
+}
+.float-contact a {
+  width:56px; height:56px; border-radius:50%;
+  display:flex; align-items:center; justify-content:center;
+  color:white !important; font-size:26px; text-decoration:none;
+  box-shadow:0 4px 12px rgba(0,0,0,0.3);
+}
+.btn-wa { background:#25D366; }
+.btn-mail { background:#0f172a; }
 </style>
 </head>
 <body>
-<div class="top">
-<h1>عبدالرحمن علي الفيفي</h1>
-<p>مطور برمجيات - دبلوم برمجيات الحاسب</p>
-<div class="contact">0558129513 | abdulrahman.ali.alfaifi@gmail.com | السعودية</div>
+
+<div class="header">
+  <h1>عبدالرحمن الفيفي</h1>
+  <div class="job-title">دبلوم برمجيات الحاسب - الكلية التقنية - معدل 4.23 من 5</div>
+  
+  <div class="contact-info">
+    <a href="tel:+9665XXXXXXXX">+966 5X XXX XXXX</a>
+    <a href="mailto:yourmail@gmail.com">yourmail@gmail.com</a>
+    <span>جازان - السعودية</span>
+  </div>
+  
+  <p style="margin-top:20px; max-width:600px; margin-inline:auto; font-size:15px; color:#cbd5e1;">
+    متخصص في برمجيات الحاسب أسعى للانضمام إلى فريق عمل احترافي لتطوير الأنظمة والحلول البرمجية، والمساهمة في تحسين الأداء التقني للمؤسسة.
+  </p>
 </div>
-<div class="wrap">
-<div class="box">
-<h2>الهدف الوظيفي</h2>
-<p>متخصص في برمجيات الحاسب أسعى للانضمام إلى فريق عمل احترافي لتوظيف مهاراتي في تطوير الأنظمة وإدارة قواعد البيانات وتحويل المتطلبات إلى حلول تقنية فعالة تساهم في رفع كفاءة العمل.</p>
+
+<div class="section">
+  <h2>المهارات التقنية</h2>
+  <p>HTML - CSS - JavaScript - Python - SQL - Git - حل المشكلات</p>
 </div>
-<div class="box">
-<h2>الخبرات العملية - الكلية التقنية بجازان</h2>
-<ul>
-<li>تحليل المتطلبات التقنية للمشاريع البرمجية وتصميم حلول برمجية فعالة</li>
-<li>فحص واختبار البرمجيات ومعالجة الأخطاء البرمجية Debugging</li>
-<li>تحديث الملفات البرمجية وضبط بيئات التطوير باستخدام Git</li>
-<li>تقديم الدعم الفني للمستخدمين لضمان استمرارية العمل</li>
-</ul>
+
+<div class="section">
+  <h2>المؤهل العلمي</h2>
+  <p><strong>دبلوم برمجيات الحاسب</strong> - الكلية التقنية بجازان (2022) - معدل 4.23 بتقدير جيد جداً</p>
 </div>
-<div class="box">
-<h2>التعليم</h2>
-<ul>
-<li>دبلوم في برمجيات الحاسب - الكلية التقنية بجازان - 2022</li>
-<li>تحليل وتصميم الأنظمة، تطوير تطبيقات الويب والموبايل</li>
-<li>إدارة قواعد البيانات واستعلامات SQL، Git & GitHub</li>
-<li>طرق اختبار البرمجيات وتصحيح الأخطاء</li>
-</ul>
+
+<!-- الأزرار العائمة -->
+<div class="float-contact">
+  <a class="btn-wa" href="https://wa.me/9665XXXXXXXX" target="_blank">W</a>
+  <a class="btn-mail" href="mailto:yourmail@gmail.com">@</a>
 </div>
-<div class="box">
-<h2>التدريب والشهادات</h2>
-<ul>
-<li>مهارات الحاسب في الأعمال المكتبية - مركز كون للتدريب - 60 ساعة</li>
-<li>ثقافة العمل وفق نظام العمل السعودي - منصة دروب</li>
-<li>مهن المستقبل والتحول الرقمي - هدف - 15 ساعة</li>
-<li>معتمد في Word, PowerPoint, Excel | تجميع الحاسب - سيسكو</li>
-</ul>
-</div>
-<div class="box">
-<h2>المهارات التقنية</h2>
-<p>HTML | CSS | JavaScript | SQL | Git | GitHub | Debugging | Microsoft Office</p>
-</div>
-<div class="box">
-<h2>المهارات الشخصية</h2>
-<p>إدارة الوقت | التفكير النقدي | حل المشكلات | العمل الجماعي | الإبداع</p>
-</div>
-<div class="box">
-<h2>اللغات</h2>
-<p>العربية - اللغة الأم | الإنجليزية - جيد</p>
-</div>
-</div>
-<div class="foot">abdulrahman-alfaifi681.github.io - 2026</div>
+
 </body>
 </html>
